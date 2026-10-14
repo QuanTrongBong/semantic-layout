@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Layout HTML5</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home">WEB<span>PAGE</span></a>
+    <p>Bố cục trang web với HTML5</p>
+  </header>
+
+  <nav class="site-nav" aria-label="Điều hướng chính">
+    <a href="#home">Trang chủ</a>
+    <a href="#news">Tin tức</a>
+    <a href="#articles">Bài viết</a>
+    <a href="#about">Giới thiệu</a>
+  </nav>
+
+  <main class="page-layout" id="home">
+    <section class="main-section" id="news">
+      <h1>Tin tức mới nhất</h1>
+      <article class="feature-article">
+        <p class="eyebrow">CÔNG NGHỆ · 14/10/2026</p>
+        <h2>Bắt đầu xây dựng trang web đầu tiên của bạn</h2>
+        <p>Tìm hiểu cách tổ chức nội dung với những thẻ HTML5 có ý nghĩa và tạo giao diện đơn giản bằng CSS.</p>
+        <a href="#articles">Đọc tiếp →</a>
+      </article>
+      <div class="article-list" id="articles">
+        <article class="article-card">
+          <span>HTML5</span>
+          <h2>Dùng thẻ ngữ nghĩa để mô tả nội dung</h2>
+          <p>Header, nav, main, section và footer giúp trang rõ ràng hơn.</p>
+        </article>
+        <article class="article-card">
+          <span>CSS</span>
+          <h2>Sắp xếp bố cục linh hoạt</h2>
+          <p>Kết hợp Flexbox và Grid để hiển thị tốt trên nhiều màn hình.</p>
+        </article>
+      </div>
+    </section>
+
+    <aside class="sidebar" id="about">
+      <section class="side-card">
+        <h2>Giới thiệu</h2>
+        <p>Trang mẫu minh họa cách dùng các phần tử ngữ nghĩa HTML5 trong một layout cơ bản.</p>
+      </section>
+      <section class="side-card">
+        <h2>Chủ đề</h2>
+        <a href="#news">Tin công nghệ</a>
+        <a href="#articles">HTML &amp; CSS</a>
+        <a href="#articles">Thiết kế web</a>
+      </section>
+      <section class="side-card side-card--highlight">
+        <h2>Mẹo nhỏ</h2>
+        <p>Dùng mỗi thẻ theo đúng mục đích để cấu trúc trang dễ đọc, dễ bảo trì.</p>
+      </section>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 WebPage · Bài tập thực hành HTML5 &amp; CSS</p>
+    <a href="#home">Về đầu trang ↑</a>
+  </footer>
+</body>
+</html>
